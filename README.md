@@ -47,14 +47,14 @@
 
 </div>
 
-1. 到 [ Releases](https://github.com/yecheng770/psrdp/releases) 下载 `psrdp.ffpfs`（约 10 MB）
+1. 到 [ Releases](https://github.com/yecheng770/PS5-rdp-client/releases) 下载 `psrdp.ffpfs`（约 10 MB）
 2. 用你常用的 loader（ShadowMount+ / etaHEN 等）导入，主页出现 **PSrdp**
 
-> [下载安装包 <img src="https://img.shields.io/badge/→ 下载-Release-orange" />](https://github.com/yecheng770/psrdp/releases)
+> [下载安装包 <img src="https://img.shields.io/badge/→ 下载-Release-orange" />](https://github.com/yecheng770/PS5-rdp-client/releases)
 
 ### Setup (English)
 
-1. Grab the latest `psrdp.ffpfs` from [Releases](https://github.com/yecheng770/psrdp/releases)
+1. Grab the latest `psrdp.ffpfs` from [Releases](https://github.com/yecheng770/PS5-rdp-client/releases)
 2. Import with your loader (ShadowMount+, etaHEN, …) — **PSrdp** shows up on your home screen
 3. Launch, enter your PC's IP, username and password **inside the app** (gamepad + on-screen keyboard,
    no browser involved), and hit Connect
@@ -106,8 +106,8 @@ GPL-3.0 · [`LICENSE`](LICENSE) · 第三方组件与许可详见
 
 <div align="center">
 
-[![Release](https://img.shields.io/github/v/release/yecheng770/psrdp?label=%E4%B8%8B%E8%BD%BD%E5%AE%89%E8%A3%85%E5%8C%85&color=orange)](https://github.com/yecheng770/psrdp/releases)
-[![Stars](https://img.shields.io/github/stars/yecheng770/psrdp?style=social)](https://github.com/yecheng770/psrdp/stargazers)
+[![Release](https://img.shields.io/github/v/release/yecheng770/psrdp?label=%E4%B8%8B%E8%BD%BD%E5%AE%89%E8%A3%85%E5%8C%85&color=orange)](https://github.com/yecheng770/PS5-rdp-client/releases)
+[![Stars](https://img.shields.io/github/stars/yecheng770/psrdp?style=social)](https://github.com/yecheng770/PS5-rdp-client/stargazers)
 
 **觉得有用请点个 Star ⭐，让更多 PS5 玩家看得到**
 

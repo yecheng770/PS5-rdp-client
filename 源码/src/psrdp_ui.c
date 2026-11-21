@@ -819,7 +819,7 @@ void ui_draw_home(const ui_home *m)
         const unsigned char *mask = psrdp_github_21;
         int side = 21, size = S(21);
         int text_h = S(19);
-        const char *url = "github.com/yecheng770/psrdp";
+        const char *url = "github.com/yecheng770/PS5-rdp-client";
         int url_w = ui_width(text_h, url);
         int text_x = S(1834) - url_w, text_y = S(1002);
         int icon_x = text_x - size - S(7), icon_y = text_y + (text_h - size) / 2;
