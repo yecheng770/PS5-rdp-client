@@ -29,10 +29,11 @@
 
 **三步走：**
 
-1. 下载本仓库的 `dist/PPSA90210*.ffpfs`（或自己源码编译生成的），通过
-   你在用的 loader（ShadowMount+、etaHEN 等）装到 PS5
-2. 主页会出现 **PSrdp** 应用。启动后用电脑浏览器访问
-   `http://<PS5的IP>:8081` 进入配置页，填 Windows 的 IP 和账号
+1. 下载 [Release](../../releases) 页的 `PPSA90042-v1.7.24.ffpfs`（或自己编译
+   生成的），通过你在用的 loader（ShadowMount+、etaHEN 等）装到 PS5
+2. 主页会出现 **PSrdp** 应用。启动后应用自身会开一个配置服务，**用电脑或
+   手机的浏览器**（PS5 自带浏览器不支持此页面）访问
+   `http://<PS5的IP>:8081`，填 Windows 的 IP 和账号
 3. 回到应用，整个 Windows 桌面已经在 PS5 上了
 
 首次启动不预置任何 IP/账号，必须自己填，这是刻意的安全设计。
@@ -72,7 +73,7 @@ make app                 # 编译+签名+打包，产物在 dist/
 
 PS5 没有官方 RDP 客户端。PSrdp 是一个自制应用：
 
-1. 以应用形式装进 PS5 主页（titleId `PPSA90210`），启动后先起一个
+1. 以应用形式装进 PS5 主页（titleId `PPSA90042`），启动后先起一个
    小型 HTTP 服务做配置页和状态面板
 2. 用户在配置页填好 Windows 侧信息，应用用 FreeRDP 3.x 发起 RDP 连接
 3. Windows 桌面被编码成位图帧，经网线传到 PS5，直接写入 VideoOut 显示
