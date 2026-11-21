@@ -35,10 +35,8 @@ output — barely noticeable latency for everyday work.
 **🔊 Native audio** — every sound the PC makes arrives on the PS5 as 48 kHz
 stereo in real time.
 
-**⚙️ Also on board** — connection history (last 5 hosts), remote disk
-redirection (RDPDR), a five-language interface (English / 简中 / 日本語 /
-Français / Русский), idle decorations, and the author signature in the
-bottom-right corner.
+**⚙️ Also on board** — connection history (last 5 hosts) and a five-language
+interface (English / 简中 / 日本語 / Français / Русский).
 
 ### Where it shines vs. where it doesn't
 
@@ -111,9 +109,8 @@ PS5 视频输出，日常办公几乎感觉不到延迟。
 
 **🔊 音频原生回传** —— Windows 的一切声音实时以 48kHz 立体声从 PS5 播放。
 
-**⚙️ 除此之外** —— 连接历史存最近 5 组、远程设备重定向（磁盘映射 RDPDR）、
-五国语言界面（简中/English/日本語/Français/Русский）、待机装饰动画、
-右下角作者签名与仓库地址。
+**⚙️ 除此之外** —— 连接历史存最近 5 组、五国语言界面
+（简中/English/日本語/Français/Русский）。
 
 ### 适用与不适用
 
