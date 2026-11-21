@@ -1036,7 +1036,7 @@ static int configure(rdpSettings *settings, const config_t *cfg)
 #define SET_SETTING(type, key, value) \
     do { if (!setting_result(freerdp_settings_set_##type(settings, key, value), #key)) ok = 0; } while (0)
     SET_SETTING(string, FreeRDP_ServerHostname, cfg->host);
-    SET_SETTING(string, FreeRDP_Username, cfg->user[0] ? cfg->user : "yc");
+    SET_SETTING(string, FreeRDP_Username, cfg->user[0] ? cfg->user : "user");
     SET_SETTING(string, FreeRDP_Password, cfg->pass);
     SET_SETTING(uint32, FreeRDP_ServerPort, port);
     SET_SETTING(uint32, FreeRDP_DesktopWidth, (UINT32)desktop_w);
