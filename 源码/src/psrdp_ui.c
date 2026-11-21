@@ -21,6 +21,7 @@
 #include "psrdp_ui.h"
 #include "psrdp_dualsense.inc"
 #include "psrdp_globe.inc"
+#include "psrdp_github.inc"
 
 /* stb_truetype is vendored C with a lot of static helpers we never call;
  * keep the project's strict warning set from turning those into errors. */
@@ -812,6 +813,22 @@ void ui_draw_home(const ui_home *m)
     text_fit(92,966,900,21,C_DIM,ui_localize("Up/down: select   Left/right: change"));
     if (m->output) text_fit(1004,966,830,19,C_DIM,m->output);
     draw_language(m);
+
+    /* Author signature: GitHub mark + repository URL, bottom-right corner. */
+    {
+        const unsigned char *mask = psrdp_github_21;
+        int side = 21, size = S(21);
+        int text_h = S(19);
+        const char *url = "github.com/yecheng770/psrdp";
+        int url_w = ui_width(text_h, url);
+        int url_x = S(1834), text_y = S(1002);
+        int icon_x = url_x - url_w - size - S(7), icon_y = text_y + (text_h - size) / 2;
+        for (int row = 0; row < size; ++row)
+            for (int col = 0; col < size; ++col)
+                blend(icon_x + col, icon_y + row, C_DIM,
+                      mask[(row * side / size) * side + col * side / size]);
+        ui_text(url_x, text_y, text_h, C_DIM, url);
+    }
 }
 
 static const char keyboard_pages[UI_KEY_PAGES][UI_KEY_COLS * UI_KEY_ROWS + 1] = {
