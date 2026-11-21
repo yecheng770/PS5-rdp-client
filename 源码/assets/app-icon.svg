@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1E3F"/>
+      <stop offset="1" stop-color="#0A1428"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="96" fill="url(#bg)"/>
+  <!-- remote monitor -->
+  <rect x="96" y="120" width="320" height="200" rx="18" fill="#1B7FDB"/>
+  <rect x="116" y="140" width="280" height="160" rx="10" fill="#0E1C33"/>
+  <!-- desktop bar -->
+  <rect x="128" y="156" width="120" height="10" rx="5" fill="#38A1F0"/>
+  <rect x="128" y="176" width="84" height="10" rx="5" fill="#2E5E86"/>
+  <!-- keyboard hint -->
+  <rect x="128" y="230" width="56" height="22" rx="4" fill="#2E5E86"/>
+  <rect x="192" y="230" width="56" height="22" rx="4" fill="#2E5E86"/>
+  <rect x="256" y="230" width="56" height="22" rx="4" fill="#2E5E86"/>
+  <rect x="320" y="230" width="56" height="22" rx="4" fill="#2E5E86"/>
+  <!-- dualsense -->
+  <g transform="translate(146,300)">
+    <path d="M70 0 C92 0 104 8 118 24 C134 44 146 84 146 120 C146 146 132 160 112 160 C96 160 88 148 84 132 L72 132 L68 150 C64 158 58 160 48 160 C44 160 40 158 38 152 L34 132 L22 132 C18 148 10 160 -6 160 C-26 160 -40 146 -40 120 C-40 84 -28 44 -12 24 C2 8 14 0 36 0 Z" fill="#E8ECF2" transform="translate(50,18) scale(1.0)"/>
+    <circle cx="132" cy="66" r="18" fill="#1B7FDB" transform="translate(50,18)"/>
+    <circle cx="132" cy="108" r="18" fill="#E24E4E" transform="translate(50,18)"/>
+    <rect x="34" y="60" width="60" height="16" rx="8" fill="#7A8494" transform="translate(50,18)"/>
+  </g>
+  <!-- connection chain -->
+  <path d="M256 320 L256 268" stroke="#38A1F0" stroke-width="6" stroke-dasharray="10 8" fill="none"/>
+  <text x="256" y="472" font-family="Segoe UI, Arial" font-size="46" font-weight="700" fill="#EDF2FA" text-anchor="middle">PSrdp</text>
+</svg>
