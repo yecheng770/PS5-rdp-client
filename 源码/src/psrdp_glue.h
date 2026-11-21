@@ -4,7 +4,7 @@
 
 /* Single source of truth: the config page prints it, the session trace
  * records it, and the param.json contentVersion follows it. */
-#define PSRDP_VERSION "1.7.23"
+#define PSRDP_VERSION "1.7.24"
 
 #include <stdint.h>
 #include <stdio.h>
