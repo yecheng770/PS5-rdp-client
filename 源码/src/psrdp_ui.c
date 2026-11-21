@@ -821,13 +821,13 @@ void ui_draw_home(const ui_home *m)
         int text_h = S(19);
         const char *url = "github.com/yecheng770/psrdp";
         int url_w = ui_width(text_h, url);
-        int url_x = S(1834), text_y = S(1002);
-        int icon_x = url_x - url_w - size - S(7), icon_y = text_y + (text_h - size) / 2;
+        int text_x = S(1834) - url_w, text_y = S(1002);
+        int icon_x = text_x - size - S(7), icon_y = text_y + (text_h - size) / 2;
         for (int row = 0; row < size; ++row)
             for (int col = 0; col < size; ++col)
                 blend(icon_x + col, icon_y + row, C_DIM,
                       mask[(row * side / size) * side + col * side / size]);
-        ui_text(url_x, text_y, text_h, C_DIM, url);
+        ui_text(text_x, text_y, text_h, C_DIM, url);
     }
 }
 
