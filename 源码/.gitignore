@@ -1,0 +1,12 @@
+# 构建产物与本地参数
+build/
+dist/
+.env
+_deps/
+.deps/
+
+# 系统文件
+*.bak
+*.bak-*
+*.off
+Thumbs.db
